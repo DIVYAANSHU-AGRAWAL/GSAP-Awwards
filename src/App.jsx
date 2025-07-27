@@ -38,10 +38,10 @@ const App = () => {
         <div id ="smooth-content">
       <Routes>
         <Route path='/' element={<HeroSection/>}/>
-        <Route path='flavors' element={<FlavourSection/>}></Route>
-        <Route path='nutrients' element={<Nutrition/>}></Route>
-        <Route path='message' element={<MessageSection/>}></Route>
-        <Route path='benefits' element={<BenefitSection/>}></Route>
+        <Route path='/flavors' element={<FlavourSection/>}></Route>
+        <Route path='/nutrients' element={<Nutrition/>}></Route>
+        <Route path='/message' element={<MessageSection/>}></Route>
+        <Route path='/benefits' element={<BenefitSection/>}></Route>
       </Routes>
       <MessageSection/>
       <BenefitSection/>
