@@ -59,8 +59,8 @@ const HeroSection = () => {
     <section className="bg-main-bg">
       <div className="hero-container">
         <img
-          src="public/images/static-img.png"
-          alt="static-img"
+          src="/images/gggg.png"
+          alt="gggg"
           className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-150"
         />
         <div className="hero-content opacity-0">
@@ -84,7 +84,7 @@ const HeroSection = () => {
             Taste of the west, power of desi milk
           </button>
           <p className="text-md text-black mt-3">
-           © {new Date().getFullYear()} SwasthSip by Divyaanshu Agrawal. All rights reserved.
+           © {new Date().getFullYear()} by Divyaanshu Agrawal. All rights reserved.
           </p>
         </div>
       </div>
