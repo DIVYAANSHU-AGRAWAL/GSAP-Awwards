@@ -1,12 +1,70 @@
-# React + Vite
+# Animated Landing Page – React + Tailwind + GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully responsive, animated landing page built using **React**, **Tailwind CSS**, and **GSAP (GreenSock Animation Platform)**. It demonstrates modern frontend capabilities with scroll-based animations, responsive layouts, and multi-page navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Scroll-based animations using `gsap` and `ScrollTrigger`
+- Responsive layout with `useMediaQuery` and Tailwind CSS
+- Route-based navigation with React Router
+- Modern React hooks: `useState`, `useEffect`, `useRef`, `useGSAP`, and a custom `useMediaQuery`
+- SVGs, images, and video integration
+- Google Fonts typography
+- Conditional rendering and reusable components
+- Sticky navbar with section-aware transitions
+- Optimized for all screen sizes with smooth performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React** – Functional component-based UI
+- **Tailwind CSS** – Utility-first styling
+- **GSAP** – Animation engine with ScrollTrigger
+- **React Router DOM** – Multi-page navigation
+- **Vite** – Build and development tool
+- **Google Fonts** – Web typography
+
+---
+
+## Project Structure
+
+```
+public/
+  └── media assets (images, videos, favicon, etc.)
+
+src/
+├── components/
+│   └── ClipPathTitle.jsx, Navbar.jsx
+├── sections/
+│   └── HeroSection.jsx, MessageSection.jsx, FlavourSection.jsx, NutrientsSection.jsx, BenefitSection.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Getting Started
+
+### Run Locally
+
+```bash
+git clone https://github.com/your-username/animated-landing-page
+cd animated-landing-page
+npm install
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## ✍️ Author
+
+**Divyaanshu Agrawal**  
+Frontend Developer | React | Tailwind | GSAP  
