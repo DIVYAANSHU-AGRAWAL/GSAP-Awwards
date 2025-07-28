@@ -46,12 +46,12 @@ const Nutrition = () => {
             </div>
           </div>
 
-          <div className="nutrition-box">
+          <div className="nutrition-box md:flex-row md:items-center md:justify-center ">
             <div className="list-wrapper">
               {
                 // index.js
                 lists.map((nutrient,index)=>(
-                  <div key={index} className="relative flex-1 col-center">
+                  <div key={index} className="relative flex-1 col-center ">
                     <div className="">
                       <p className="md:text-lg font-paragraph">{nutrient.label}</p>
                       <p className="text-sm font-paragraph mt-2">up to</p>

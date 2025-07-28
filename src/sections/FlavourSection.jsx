@@ -2,7 +2,7 @@ import FlavourSlider from "../components/FlavourSlider";
 import FlavorTitle from "../components/FlavourTitle";
 
 
-const FlavorSection = () => {
+const FlavourSection = () => {
   return (
     <section className="flavor-section">
       <div className="h-full flex lg:flex-row flex-col items-center relative">
@@ -17,4 +17,4 @@ const FlavorSection = () => {
   );
 };
 
-export default FlavorSection;
+export default FlavourSection;

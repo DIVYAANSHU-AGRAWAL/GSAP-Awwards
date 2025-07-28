@@ -11,6 +11,9 @@ const FlavourSlider = () => {
   const sliderRef = useRef();
 
   useGSAP(() => {
+
+    if (window.innerWidth < 1024) return;        // Disable this animation on small screens
+
     const scrollAmount = sliderRef.current.scrollWidth - window.innerWidth;
 
     const tl = gsap.timeline({
@@ -43,7 +46,7 @@ const FlavourSlider = () => {
               <img src={`/images/${flavor.color}-bg.svg`} alt="" className='absolute bottom-0' />
               <img src={`/images/${flavor.color}-drink.webp`} alt="" className='drinks' />
               <img src={`/images/${flavor.color}-elements.webp`} alt="" className='elements' />
-              <h1>{flavor.name}</h1>
+              <h1 className='text-center'>{flavor.name}</h1>
             </div>
           ))
         }

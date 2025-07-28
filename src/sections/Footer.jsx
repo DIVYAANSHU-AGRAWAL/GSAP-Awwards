@@ -30,7 +30,7 @@ const Footer = () => {
             <img src="/images/insta.svg" alt="insta" />
           </div>
         </div>
-        <p class="text-center text-sm text-gray-500">
+        <p className="text-center text-sm text-gray-500">
   © 2025 Divyaanshu Agrawal. All rights reserved. Built with ❤️ in India.
 </p>
 

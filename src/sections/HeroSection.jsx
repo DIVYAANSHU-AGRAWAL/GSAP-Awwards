@@ -65,7 +65,7 @@ const HeroSection = () => {
         />
         <div className="hero-content opacity-0">
           <div className="overflow-hidden">
-            <h1 className="hero-title">Protein thoda hatke!</h1>
+            <h1 className="hero-title sm:mt-4">Protein thoda hatke!</h1>
           </div>
           {/* Reveal text animation */}
           <div
