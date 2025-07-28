@@ -57,11 +57,11 @@ const HeroSection = () => {
   });
   return (
     <section className="bg-main-bg">
-      <div className="hero-container">
+      <div className="hero-container relative min-h-[100dvh] overflow-hidden">
         <img
           src="/images/gggg.png"
           alt="gggg"
-          className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-150"
+          className="absolute inset-0 w-full h-full object-cover z-[-1]"
         />
         <div className="hero-content opacity-0">
           <div className="overflow-hidden">
