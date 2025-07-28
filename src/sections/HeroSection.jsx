@@ -75,7 +75,7 @@ const HeroSection = () => {
             className="hero-text-scroll"
           >
             <div className="hero-subtitle">
-              <h1>100% Quality 0 Jugaad</h1>
+              <h1>100% Quality, 0 Jugaad</h1>
             </div>
           </div>
           {/* Subtitle and Call to Action Button */}

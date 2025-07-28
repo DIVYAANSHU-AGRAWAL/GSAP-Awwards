@@ -50,7 +50,7 @@ const FlavourTitle = () => {
             </div> 
             <div style={{clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)"}} className="flavor-text-scroll">
                 <div className="bg-mid-brown pb-5 2xl:pt-0 pt-3 2xl:px-5 px-3 ">
-                    <h2 className="text-milk">freaking</h2>
+                    <h2 className="text-milk">dhamakedaar</h2>
                 </div>
             </div>
             <div className="overflow-hidden 2xl:py-0 py-3 second-text-split">
